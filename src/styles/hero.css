@@ -1,0 +1,35 @@
+.hero-purple-black {
+  background: linear-gradient(
+    180deg,
+    #3b0764 0%,
+    #2e1065 18%,
+    #1e1b4b 42%,
+    #0f0f1a 72%,
+    #050505 100%
+  );
+}
+
+.hero-stars {
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.75) 1px, transparent 1px);
+  background-size: 110px 110px;
+  opacity: 0.22;
+}
+
+.hero-top-glow {
+  background: radial-gradient(circle at 50% 0%, rgba(147, 51, 234, 0.35) 0%, transparent 55%);
+}
+
+.hero-sun-glow {
+  background: radial-gradient(
+    circle,
+    rgba(251, 191, 36, 0.55) 0%,
+    rgba(245, 158, 11, 0.25) 22%,
+    rgba(147, 51, 234, 0.12) 45%,
+    transparent 68%
+  );
+}
+
+.hero-sun-core {
+  background: linear-gradient(135deg, #fef3c7 0%, #fbbf24 45%, #f59e0b 100%);
+  box-shadow: 0 0 80px rgba(251, 191, 36, 0.5);
+}

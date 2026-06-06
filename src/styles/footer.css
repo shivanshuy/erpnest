@@ -1,0 +1,40 @@
+.footer-main {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 4rem;
+}
+
+.footer-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.footer-col-right {
+  text-align: right;
+  flex: 1;
+  max-width: 50%;
+}
+
+@media (min-width: 1024px) {
+  .footer-main {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) minmax(0, 1fr);
+    gap: 3rem;
+    align-items: start;
+  }
+
+  .footer-columns {
+    display: contents;
+  }
+
+  .footer-col-right {
+    text-align: left;
+    max-width: none;
+    flex: unset;
+  }
+}

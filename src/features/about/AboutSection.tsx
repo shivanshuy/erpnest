@@ -133,7 +133,7 @@ function AboutStory() {
 
 export function AboutSection() {
   return (
-    <Section id="about" variant="gradient">
+    <Section id="about" className="section-about">
       <AboutGridPattern />
       <Container className="relative z-10">
         <SectionHeader

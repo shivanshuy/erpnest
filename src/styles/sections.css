@@ -1,0 +1,33 @@
+/* Each section starts where the previous one ends */
+
+.section-about {
+  background: linear-gradient(
+    180deg,
+    #050505 0%,
+    #0c0618 14%,
+    #150f2e 38%,
+    #1e1245 68%,
+    #120e22 100%
+  );
+}
+
+.section-services {
+  background: linear-gradient(
+    180deg,
+    #120e22 0%,
+    #0f0f1a 30%,
+    #141428 62%,
+    #1a1a2e 100%
+  );
+}
+
+.section-contact {
+  background: linear-gradient(
+    145deg,
+    #1a1a2e 0%,
+    #171730 35%,
+    #152238 58%,
+    #0f3460 82%,
+    #0a2540 100%
+  );
+}

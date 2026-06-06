@@ -4,7 +4,7 @@ import { ContactInfoPanel } from './ContactInfoPanel'
 
 export function ContactSection() {
   return (
-    <Section id="contact" variant="gradient">
+    <Section id="contact" className="section-contact">
       <Container className="relative z-10">
         <SectionHeader
           eyebrow="CONTACT US"

@@ -11,7 +11,7 @@ export default function App() {
   useScrollAnimation()
 
   return (
-    <div className="min-h-screen bg-dark-950">
+    <div className="min-h-screen bg-[#050505]">
       <a href="#home" className="sr-only">
         Skip to main content
       </a>

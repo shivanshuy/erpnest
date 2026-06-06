@@ -4,7 +4,7 @@ import { ServiceCard } from './ServiceCard'
 
 export function ServicesSection() {
   return (
-    <Section id="services" variant="dark">
+    <Section id="services" className="section-services">
       <div className="absolute inset-0 geo-pattern" aria-hidden="true" />
       <Container className="relative z-10">
         <SectionHeader
