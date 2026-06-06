@@ -13,6 +13,45 @@
   --header-height: 4.75rem;
 }
 
+.logo-wordmark {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.02em;
+  font-family: var(--font-logo);
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.logo-wordmark-compact {
+  font-size: 1.0625rem;
+  letter-spacing: 0.07em;
+}
+
+@media (min-width: 1024px) {
+  .logo-wordmark-compact {
+    font-size: 1.1875rem;
+    letter-spacing: 0.08em;
+  }
+}
+
+.logo-wordmark-erp {
+  color: #ffffff;
+  font-weight: 700;
+  text-shadow: 0 0 24px rgba(147, 51, 234, 0.35);
+}
+
+.logo-wordmark-nest {
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  background: linear-gradient(120deg, #bfdbfe 0%, #3292ff 45%, #fbbf24 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 .header-nav-pill {
   padding: 0.25rem;
   border-radius: 9999px;
@@ -27,8 +66,8 @@
 
 .header-nav-link {
   position: relative;
-  padding: 0.5rem 0.875rem;
-  font-size: 0.875rem;
+  padding: 0.5rem 0.9375rem;
+  font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.025em;
   color: rgba(255, 255, 255, 0.65);
@@ -46,8 +85,8 @@
 .header-nav-underline {
   position: absolute;
   bottom: 0.25rem;
-  left: 0.875rem;
-  right: 0.875rem;
+  left: 1rem;
+  right: 1rem;
   height: 2px;
   border-radius: 9999px;
   background: linear-gradient(90deg, #3292ff, #58b4ff, #f97316);
@@ -74,7 +113,7 @@
   width: 100%;
   padding: 0.75rem 1rem;
   text-align: left;
-  font-size: 0.9375rem;
+  font-size: 1.0625rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.72);
   border-radius: 0.75rem;

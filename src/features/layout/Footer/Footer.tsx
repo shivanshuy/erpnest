@@ -11,7 +11,7 @@ export function Footer() {
           <div className="footer-brand">
             <a href="#home" className="inline-flex mb-6 group" aria-label="ERPNest home">
               <div className="transform group-hover:scale-105 transition-transform">
-                <Logo />
+                <Logo iconClassName="w-8 h-8 lg:w-9 lg:h-9" compact wordmark="brand" />
               </div>
             </a>
             <p className="text-gray-400 mb-6 max-w-sm leading-relaxed">

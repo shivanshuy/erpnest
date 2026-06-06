@@ -11,6 +11,5 @@ export {
   PhoneIcon,
 } from './Icon/icons'
 export { Logo } from './Logo/Logo'
-export { LogoMark } from './Logo/LogoMark'
 export { Section } from './Section/Section'
 export { SectionHeader } from './SectionHeader/SectionHeader'

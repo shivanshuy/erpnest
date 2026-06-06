@@ -26,7 +26,7 @@ export function Header() {
       >
         <a href="#home" className="flex items-center group shrink-0 min-w-0" aria-label="ERPNest home">
           <div className="transform group-hover:scale-105 transition-transform duration-300">
-            <Logo iconClassName="w-8 h-8 lg:w-9 lg:h-9" compact />
+            <Logo iconClassName="w-8 h-8 lg:w-9 lg:h-9" compact wordmark="brand" />
           </div>
         </a>
 
